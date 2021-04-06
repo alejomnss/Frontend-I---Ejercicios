@@ -1,0 +1,50 @@
+header {
+    background-color: #dddddd;
+    text-align: center;
+}
+
+span {
+    font-weight: bolder;
+    font-style: italic;
+    font-family: "calibri", "Arial", "Helvetica", "sans-serif",;
+    text-transform: uppercase;
+}
+
+main {
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+section {
+    text-align: justify;
+    font-size: 15px;  line-height: 23px;
+}
+
+h1 {
+    color: #2b2ba5;
+    background-color: #BFBFBF;
+    font-weight: normal;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: #BFBFBF; 
+    font-size: 18px;
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    font-weight: normal;
+}
+p {
+    background-color: #1F497D;
+    color:white;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.icon {
+    vertical-align: middle;
+}
