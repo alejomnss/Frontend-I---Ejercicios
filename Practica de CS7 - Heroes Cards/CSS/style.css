@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.sticky {
+    background-color: #1CD1B0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    padding: 2px;
+    position: sticky; top: 0px;
+    z-index: 999;
+}
+
+h1 {
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-size: 50px;
+    padding: 7px;
+    position:relative;
+}
+
+
+.heart {
+    color: #CC2424;
+    font-size: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 5%;
+}
+
+.iconoPlus {
+    color: #00669F;
+    font-size: 70px;
+    position: fixed; 
+    top: 80%;
+    left: 92%;
+}
+
+.card {
+    background-color: #F3F3F3;
+    border-radius: 70px 70px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+    width: 500px;
+    
+}
+
+.imagenbg {
+    border-radius: 50px 50px 0px 0px;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+}
+
+h2 {
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    top: 60px;
+}
+
+p {
+    font-size: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.fotoPerfil {
+    border-radius: 100%;
+    height: 180px;
+    left: 150px;
+    position: absolute;
+    top: 250px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+h3 {
+    background-color: #00669F;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 18px;
+    width: 200px;
+}
+
+footer {
+    background-color: #00669F;
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+    text-align: center;
+}
