@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Heroes Detectiv Comics Universe</title> 
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+
+
+</head>
+
+<body>
+
+    <h5 class="sticky">
+        <span>20% de descuento en toda nuestra tienda.</span>
+    </h5>
+
+    <header>
+        <h1><a class="home" href="index.html"><div class="store"><i class="fas fa-store"></i>DC Universe Store</h1></a></div>
+    </header>
+
+    <main>
+        <section>
+            <div class="boxagregar">
+                <h2 class="tituloformulario">Agrega tu Super Heroe</h2>
+                <p class="tituloformulario">Agrega tu personaje favorito completando las opciones</p>
+                
+                
+                <form class="form" action="#" method="POST">
+                    <div class="columna1">
+                        <label for="Nombre">*Nombre</label>
+                        <input type="text" id="Nombre" name="Nombre" required placeholder="Batman">
+
+                        <label for="Fecha">Fecha</label>
+                        <input type="date" id="Fecha" name="Fecha">
+
+                        <textarea name="descripcion" id="descripcion" cols="2" rows="10" placeholder="Descripcion"></textarea>
+                    </div>
+                    
+                    <div class="columna2">
+                        <label for="Especie">*Especie</label>
+                        <select class="select" name="Especie" id="Especie" placeholder="Especie">
+                            <option value="Humano">Humano</option>
+                            <option value="Marciano">Marciano</option>
+                            <option value="Elfo">Elfo</option>
+                            <option value="Semi-Dios">Semi-Dios</option>
+                        </select>
+
+                        <label for="Foto">*Agregar Foto</label>
+                        <input type="file" id="Foto" name="Foto" accept=".jpg, .png">
+
+                        <h4 class="Poderes" id="Poderes">Poderes</h4>
+                        <label class="poderesColumna">
+                            <input type="checkbox" name="poderes"
+                            value="Volar">Volar
+                        </label>
+                            <br>
+                        <label>
+                            <input type="checkbox" name="poderes"
+                            value="SuperInteligencia">SuperInteligencia
+                        </label>
+                            <br>
+                        <label>
+                            <input type="checkbox" name="poderes"
+                            value="Vista de rayos láser">Vista de rayos láser
+                        </label>
+                            <br>
+                        <label>
+                            <input type="checkbox" name="poderes"
+                            value="Billetera gorda">Billetera gorda
+                        </label>
+
+                        <h4 class="tipo_personaje" id="tipo_personaje">Tipo de personaje</h4>
+                        <label for="heroe/heroina" class="tipopersonaje">
+                            <input type="radio" id="heroe/heroina" name="tipopersonaje" value="heroe/heroina">Héroe / Heroína
+                        </label>
+                        <label for="villano/villana" class="tipopersonaje">
+                            <input type="radio" id="villano/villana" name="tipopersonaje" value="villano/villana">Villano / Villana
+                        </label>
+
+                    </div>
+                    
+                </form>
+                <button class="aniadirHeroe" type="login">Ingresar</button>
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <footer>
+        <h5>Todos los derechos reservados a Frontend I<h5>
+    </footer>
+
+</body>
+</html>

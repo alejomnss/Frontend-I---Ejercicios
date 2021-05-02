@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Heroes Detective Comics Universe</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet"> 
+    
+</head>
+<body>
+    <h5 class="sticky">
+        <span>20% de descuento en toda nuestra tienda.</span>
+    </h5>
+    
+    <header>
+        <h1><a class="home" href="index.html"><div class="store"><i class="fas fa-store"></i>DC Universe Store</h1></a></div>
+    </header>
+    
+    <nav>
+        <ul type="none">
+            <li>
+                <a href="contacto.html" alt="contacto">Contactanos</a></li>                
+            <li>
+                <a href="registro.html" alt="registro">Registrarme</a></li>
+            <li>
+                <a href="login.html" alt="login">Ingresa</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <div class="boxform">
+                <h2 class="registro">Registro</h2>
+                <form class="form" action="EnviaABaseDeDatos.html" method="POST">
+                    <label for="nombres"></label>
+                    <input class="registro_1" type="text" id="nombres" name="Nombres" placeholder="Nombre y Apellido">
+
+                    <label for="email"></label>
+                    <input class="registro_1" type="email" id="email" name="Correo_Electrónico" placeholder="Correo Electrónico">
+                
+                    <label for="password"></label>
+                    <input class="registro_1" type="password" id="password" name="Contraseña" placeholder="Contraseña">
+                
+                    <select class="registro_1" class= "select" name="pais" id="pais" placeholder="Pais">
+                        <option value="Colombia">Colombia</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Brasil">Brasil</option>
+                    </select>
+                
+                    <button class="reset" type="reset">Resetear</button>
+                    <button class="submit" type="submit">Enviar</button>
+           
+                </form>
+
+                <p class="tenescuenta">¿Tenes cuenta?<a class="tenescuentalink" href="login.html">Ingresa</a></p>
+        
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h5>Todos los derechos reservados a Frontend I<h5>
+    </footer>
+
+</body>
+</html>
+
