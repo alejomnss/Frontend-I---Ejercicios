@@ -18,6 +18,10 @@
   
   
 5. Implementación de formularios en la pagina de tarjetas de heroes (SUPER HEROES CARDS)
+  link: <a href="https://alejomnss.github.io/Frontend-I---Ejercicios/PracticaCS9_HeroesConFormulario/" target="_blank">Super Heroes Cards Completo</a>
+  
+6. Aplicacion de diversas animaciones dentro de la pagina web (ANIMACIONES VARIAS)
+  link: <a href="https://alejomnss.github.io/Frontend-I---Ejercicios/PracticaCS12_Animación/" target="_blank">Animaciones</a>
 
 
 
